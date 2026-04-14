@@ -1,0 +1,16 @@
+[
+  {
+    "7a": {
+      "Weekday_1":{
+        "Lesson_2": {
+          "Lesson": "Геометрия",
+          "Auditorium": "207"
+        },
+        "Lesson_3": {
+          "Lesson": "Геометрия",
+          "Auditorium": "207"
+        }
+      }
+    }
+  }
+]
