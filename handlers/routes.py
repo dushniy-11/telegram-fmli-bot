@@ -7,6 +7,7 @@ import json
 import os
 import asyncio
 from assets.data_dictionaries import class_dict, weekdays_dict
+import aiofiles
 
 router = Router()
 db_name = "database/data.sqlite3"
@@ -20,8 +21,9 @@ async def notifier(bot: Bot):
         if current_mtime != last_mtime:
             last_mtime = current_mtime
             async with aiosqlite.connect(db_name) as db:
-                with open("assets/replacements.json", "r", encoding="utf-8") as f:
-                    data = json.load(f)
+                async with aiofiles.open("assets/replacements.json", "r", encoding="utf-8") as f:
+                    content = await f.read()
+                    data = await asyncio.to_thread(json.loads, content)
                 classes = list(data[0].keys())
                 weekday = list(data[0][classes[0]].keys())[0]
                 cursor = await db.execute("""
@@ -42,7 +44,7 @@ async def notifier(bot: Bot):
                         except Exception:
                             pass
                 await cursor.close()
-        await asyncio.sleep(10)
+        await asyncio.sleep(600)
 
 
 def get_main_inline_keyboard_1():
@@ -109,7 +111,7 @@ async def subscribe(message: Message):
         cursor = await db.execute("""
         SELECT * FROM users WHERE user_id = ?
         """, (user_id,))
-        result = cursor.fetchone()
+        result = await cursor.fetchone()
         if not result:
             await message.answer("Вы не указали свой класс обучения")
             return
@@ -160,17 +162,19 @@ async def select_class(message: Message, state: FSMContext):
 async def select_class(callback: CallbackQuery, state: FSMContext):
     data = await state.get_data()
     user_id = data.get("user_id")
+    if not user_id:
+        user_id = str(callback.from_user.id)
     classname = callback.data.split("_")[1]
     async with aiosqlite.connect(db_name) as db:
-        await callback.message.answer(f"Был выбран класс {class_dict[classname]}")
+        await callback.answer(f"Был выбран класс {class_dict[classname]}")
         try:
             await db.execute("""
             INSERT INTO users (user_id, classname) VALUES (?, ?)
             """, (user_id, classname))
         except Exception:
             await db.execute("""
-            UPDATE users SET classname = ?
-            """, (classname,))
+            UPDATE users SET classname = ? WHERE user_id = ?
+            """, (classname, user_id))
         await db.commit()
         await state.clear()
 
@@ -178,7 +182,7 @@ async def select_class(callback: CallbackQuery, state: FSMContext):
 @router.message(Command("lessons"))
 async def lessons(message: Message, state: FSMContext):
     async with aiosqlite.connect(db_name) as db:
-        user_id = message.from_user.id
+        user_id = str(message.from_user.id)
         cursor = await db.execute("""
         SELECT classname FROM users WHERE user_id = ?
         """, (user_id,))
@@ -201,30 +205,40 @@ async def select_weekday(callback: CallbackQuery, state: FSMContext):
     data = await state.get_data()
     classname = data.get("classname")
     if not classname:
-        user_id = callback.from_user.id
+        user_id = str(callback.from_user.id)
         async with aiosqlite.connect(db_name) as db:
             cursor = await db.execute("""
-            SELECT classname FROM users WHERE user_id = ?
-            """, (user_id,))
+               SELECT classname FROM users WHERE user_id = ?
+               """, (user_id,))
             result = await cursor.fetchone()
             classname = result[0]
-            await cursor.close()
+
+
     await callback.message.answer(f"Расписание на {weekdays_dict[weekday]} для {class_dict[classname]}")
-    with open("assets/shedule.json", "r", encoding="utf-8") as f:
-        shedule_data = json.load(f)
-    with open("assets/replacements.json", "r", encoding="utf-8") as f:
-        replacements_data = json.load(f)
-    request_lessons = shedule_data[0][classname][weekday]
-    replacements_lessons = replacements_data[0][classname][weekday]
+    async with aiofiles.open("assets/shedule.json", "r", encoding="utf-8") as f:
+        content = await f.read()
+        shedule_data = await asyncio.to_thread(json.loads, content)
+    async with aiofiles.open("assets/replacements.json", "r", encoding="utf-8") as f:
+        content = await f.read()
+        replacements_data = await asyncio.to_thread(json.loads, content)
+
+    shedule_lessons = shedule_data[0][classname][weekday]
     lessons_lst = []
     counter = 1
-    for element in request_lessons:
-        if element in list(replacements_lessons.keys()):
-            element_lst = list(replacements_lessons[element].values())
-            lessons_lst.append(f"{counter} Урок: {element_lst[0]};  Кабинет: {element_lst[1]}")
-            counter += 1
-        else:
-            element_lst = list(request_lessons[element].values())
+    if weekday in replacements_data[0][classname].values():
+        replacements_lessons = replacements_data[0][classname][weekday]
+        for element in shedule_lessons:
+            if element in list(replacements_lessons.keys()):
+                element_lst = list(replacements_lessons[element].values())
+                lessons_lst.append(f"{counter} Урок: {element_lst[0]};  Кабинет: {element_lst[1]}")
+                counter += 1
+            else:
+                element_lst = list(shedule_lessons[element].values())
+                lessons_lst.append(f"{counter} Урок: {element_lst[0]};  Кабинет: {element_lst[1]}")
+                counter += 1
+    else:
+        for element in shedule_lessons:
+            element_lst = list(shedule_lessons[element].values())
             lessons_lst.append(f"{counter} Урок: {element_lst[0]};  Кабинет: {element_lst[1]}")
             counter += 1
     await callback.message.answer(("\n").join(lessons_lst))
