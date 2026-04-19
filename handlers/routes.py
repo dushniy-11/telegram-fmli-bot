@@ -1,13 +1,14 @@
 from aiogram import Router, Bot
 from aiogram.filters import Command, StateFilter
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
-import aiosqlite
 from aiogram.fsm.context import FSMContext
+import aiosqlite
+import aiofiles
 import json
 import os
 import asyncio
 from assets.data_dictionaries import class_dict, weekdays_dict
-import aiofiles
+
 
 router = Router()
 db_name = "database/data.sqlite3"
@@ -159,7 +160,7 @@ async def select_class(message: Message, state: FSMContext):
 
 @router.callback_query(lambda x: "class_" in x.data)
 @router.message(StateFilter("user"))
-async def select_class(callback: CallbackQuery, state: FSMContext):
+async def select_class_1(callback: CallbackQuery, state: FSMContext):
     data = await state.get_data()
     user_id = data.get("user_id")
     if not user_id:
