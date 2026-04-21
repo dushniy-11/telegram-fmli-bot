@@ -1,6 +1,6 @@
-from aiogram import Router, Bot
+from aiogram import Router, Bot, F
 from aiogram.filters import Command, StateFilter
-from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
+from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton, CallbackQuery
 from aiogram.fsm.context import FSMContext
 import aiosqlite
 import aiofiles
@@ -80,18 +80,30 @@ def get_main_inline_keyboard_2():
     )
     return keyboard_to_shedule
 
+def get_main_reply_keyboard():
+    button_keyboard = ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="Старт"), KeyboardButton(text="Команды для работы с ботом(помощь)")],
+            [KeyboardButton(text="Выбрать класс обучения"), KeyboardButton(text="Посмотреть расписание уроков")],
+            [KeyboardButton(text="Подписаться на рассылку сообщений"), KeyboardButton(text="Отписаться от рассылки соообщений")]
+        ]
+    )
+    return button_keyboard
+
 
 @router.message(Command("start"))
+@router.message(F.text == "Старт")
 async def start(message: Message):
     await message.answer(
         """
         Привет, тебя приветсвует <strong>ТГ-бот</strong> для учеников <u>ГОУ РК ФМЛИ</u>, который должен сделать процесс донесения информации об заменах уроков более быстрой и удобной
         Пропиши команду <strong>/help</strong>, чтобы увидеть команды, позволяющие работать с ботом
             """,
-        parse_mode="HTML")
+        parse_mode="HTML", reply_markup=get_main_reply_keyboard())
 
 
 @router.message(Command("help"))
+@router.message(F.text == "Команды для работы с ботом(помощь)")
 async def help(message: Message):
     await message.answer("""
     <strong>Вот список команд, которые можно использовать:</strong>
@@ -106,6 +118,7 @@ async def help(message: Message):
 
 
 @router.message(Command("subscribe"))
+@router.message(F.text == "Подписаться на рассылку сообщений")
 async def subscribe(message: Message):
     async with aiosqlite.connect(db_name) as db:
         user_id = message.from_user.id
@@ -127,6 +140,7 @@ async def subscribe(message: Message):
 
 
 @router.message(Command("unsubscribe"))
+@router.message(F.text == "Отписаться от рассылки соообщений")
 async def unsubscribe(message: Message):
     user_id = message.from_user.id
     async with aiosqlite.connect(db_name) as db:
@@ -151,6 +165,7 @@ async def unsubscribe(message: Message):
 
 
 @router.message(Command("select_class"))
+@router.message(F.text == "Выбрать класс обучения")
 async def select_class(message: Message, state: FSMContext):
     user_id = str(message.from_user.id)
     await message.answer("Выберите ваш класс обучения", reply_markup=get_main_inline_keyboard_1())
@@ -181,6 +196,7 @@ async def select_class_1(callback: CallbackQuery, state: FSMContext):
 
 
 @router.message(Command("lessons"))
+@router.message(F.text == "Посмотреть расписание уроков")
 async def lessons(message: Message, state: FSMContext):
     async with aiosqlite.connect(db_name) as db:
         user_id = str(message.from_user.id)
