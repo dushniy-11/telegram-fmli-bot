@@ -45,7 +45,7 @@ async def notifier(bot: Bot):
                         except Exception:
                             pass
                 await cursor.close()
-        await asyncio.sleep(600)
+        await asyncio.sleep(10)
 
 
 def get_main_inline_keyboard_1():
@@ -242,12 +242,12 @@ async def select_weekday(callback: CallbackQuery, state: FSMContext):
     shedule_lessons = shedule_data[0][classname][weekday]
     lessons_lst = []
     counter = 1
-    if weekday in replacements_data[0][classname].values():
+    if weekday in replacements_data[0][classname].keys():
         replacements_lessons = replacements_data[0][classname][weekday]
         for element in shedule_lessons:
             if element in list(replacements_lessons.keys()):
                 element_lst = list(replacements_lessons[element].values())
-                lessons_lst.append(f"{counter} Урок: {element_lst[0]};  Кабинет: {element_lst[1]}")
+                lessons_lst.append(f"{counter} Урок: <u>{element_lst[0]};</u>  Кабинет: <u>{element_lst[1]}</u>")
                 counter += 1
             else:
                 element_lst = list(shedule_lessons[element].values())
@@ -258,5 +258,5 @@ async def select_weekday(callback: CallbackQuery, state: FSMContext):
             element_lst = list(shedule_lessons[element].values())
             lessons_lst.append(f"{counter} Урок: {element_lst[0]};  Кабинет: {element_lst[1]}")
             counter += 1
-    await callback.message.answer(("\n").join(lessons_lst))
+    await callback.message.answer(("\n").join(lessons_lst), parse_mode="HTML")
     await state.clear()

@@ -23,7 +23,7 @@
           "Auditorium": "301"
         },
         "Lesson_6": {
-          "Lesson": "Иностраннный язык",
+          "Lesson": "Иностранный язык",
           "Auditorium": "306, 207"
         }
       },
@@ -155,6 +155,1658 @@
         "Lesson_6": {
           "Lesson": "Физ.Практикум",
           "Auditorium": "304"
+        }
+      }
+    },
+    "8a": {
+      "Weekday_1": {
+        "Lesson_1": {
+          "Lesson": "Разговоры о важном",
+          "Auditorium": "311"
+        },
+        "Lesson_2": {
+          "Lesson": "Алгебра",
+          "Auditorium": "311"
+        },
+        "Lesson_3": {
+          "Lesson": "Геометрия",
+          "Auditorium": "311"
+        },
+        "Lesson_4": {
+          "Lesson": "ОБЗР",
+          "Auditorium": "306"
+        },
+        "Lesson_5": {
+          "Lesson": "Родная (русская) литература",
+          "Auditorium": "312"
+        },
+        "Lesson_6": {
+          "Lesson": "РРЯ, Коми язык",
+          "Auditorium": "312, 202"
+        },
+        "Lesson_7": {
+          "Lesson": "Информатика",
+          "Auditorium": "205"
+        }
+      },
+      "Weekday_2": {
+        "Lesson_1": {
+          "Lesson": "География",
+          "Auditorium": "209"
+        },
+        "Lesson_2": {
+          "Lesson": "География",
+          "Auditorium": "209"
+        },
+        "Lesson_3": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "202, 301"
+        },
+        "Lesson_4": {
+          "Lesson": "Русский язык",
+          "Auditorium": "301"
+        },
+        "Lesson_5": {
+          "Lesson": "Алгебра",
+          "Auditorium": "305"
+        },
+        "Lesson_6": {
+          "Lesson": "Физический практикум",
+          "Auditorium": "202"
+        }
+      },
+      "Weekday_3": {
+        "Lesson_1": {
+          "Lesson": "Алгебра",
+          "Auditorium": "207"
+        },
+        "Lesson_2": {
+          "Lesson": "Геометрия",
+          "Auditorium": "207"
+        },
+        "Lesson_3": {
+          "Lesson": "Русский язык",
+          "Auditorium": "301"
+        },
+        "Lesson_4": {
+          "Lesson": "Литература",
+          "Auditorium": "301"
+        },
+        "Lesson_5": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "209, 202"
+        },
+        "Lesson_6": {
+          "Lesson": "Обществознание",
+          "Auditorium": "312"
+        }
+      },
+      "Weekday_4": {
+        "Lesson_1": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_2": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_3": {
+          "Lesson": "Физика",
+          "Auditorium": "304"
+        },
+        "Lesson_4": {
+          "Lesson": "Физика",
+          "Auditorium": "304"
+        },
+        "Lesson_5": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_6": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        }
+      },
+      "Weekday_5": {
+        "Lesson_1": {
+          "Lesson": "Русский язык",
+          "Auditorium": "305"
+        },
+        "Lesson_2": {
+          "Lesson": "Литература",
+          "Auditorium": "305"
+        },
+        "Lesson_3": {
+          "Lesson": "Алгебра",
+          "Auditorium": "301"
+        },
+        "Lesson_4": {
+          "Lesson": "Геометрия",
+          "Auditorium": "301"
+        },
+        "Lesson_5": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_6": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        }
+      },
+      "Weekday_6": {
+        "Lesson_1": {
+          "Lesson": "Биология",
+          "Auditorium": "209"
+        },
+        "Lesson_2": {
+          "Lesson": "Биология",
+          "Auditorium": "209"
+        },
+        "Lesson_3": {
+          "Lesson": "Музыка",
+          "Auditorium": "311"
+        },
+        "Lesson_4": {
+          "Lesson": "Вероятность и статистика",
+          "Auditorium": "301"
+        },
+        "Lesson_5": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "305, 206"
+        },
+        "Lesson_6": {
+          "Lesson": "Физический практикум",
+          "Auditorium": "202"
+        }
+      }
+    },
+    "8b": {
+      "Weekday_1": {
+        "Lesson_1": {
+          "Lesson": "Разговоры о важном",
+          "Auditorium": "205"
+        },
+        "Lesson_2": {
+          "Lesson": "Геометрия",
+          "Auditorium": "205"
+        },
+        "Lesson_3": {
+          "Lesson": "Геометрия",
+          "Auditorium": "205"
+        },
+        "Lesson_4": {
+          "Lesson": "Обществознание",
+          "Auditorium": "312"
+        },
+        "Lesson_5": {
+          "Lesson": "Труд (технология)",
+          "Auditorium": "Кванториум"
+        },
+        "Lesson_6": {
+          "Lesson": "Труд (технология)",
+          "Auditorium": "Кванториум"
+        }
+      },
+      "Weekday_2": {
+        "Lesson_1": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        },
+        "Lesson_2": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        },
+        "Lesson_3": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_4": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "203, 202, 313"
+        },
+        "Lesson_5": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_6": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_7": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        }
+      },
+      "Weekday_3": {
+        "Lesson_1": {
+          "Lesson": "Русский язык",
+          "Auditorium": "305"
+        },
+        "Lesson_2": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        },
+        "Lesson_3": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "206, 305, 313"
+        },
+        "Lesson_4": {
+          "Lesson": "ОБЗР",
+          "Auditorium": "205"
+        },
+        "Lesson_5": {
+          "Lesson": "Вероятность и статистика",
+          "Auditorium": "205"
+        },
+        "Lesson_6": {
+          "Lesson": "Физический практикум",
+          "Auditorium": "304"
+        }
+      },
+      "Weekday_4": {
+        "Lesson_1": {
+          "Lesson": "Русский язык",
+          "Auditorium": "312"
+        },
+        "Lesson_2": {
+          "Lesson": "Литература",
+          "Auditorium": "312"
+        },
+        "Lesson_3": {
+          "Lesson": "География",
+          "Auditorium": "209"
+        },
+        "Lesson_4": {
+          "Lesson": "География",
+          "Auditorium": "209"
+        },
+        "Lesson_5": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "305, 311, 313"
+        },
+        "Lesson_6": {
+          "Lesson": "Физический практикум",
+          "Auditorium": "202"
+        }
+      },
+      "Weekday_5": {
+        "Lesson_1": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_2": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_3": {
+          "Lesson": "Информатика",
+          "Auditorium": "205"
+        },
+        "Lesson_4": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_5": {
+          "Lesson": "Русский язык",
+          "Auditorium": "311"
+        },
+        "Lesson_6": {
+          "Lesson": "Литература",
+          "Auditorium": "311"
+        }
+      },
+      "Weekday_6": {
+        "Lesson_1": {
+          "Lesson": "Музыка",
+          "Auditorium": "311"
+        },
+        "Lesson_2": {
+          "Lesson": "Алгебра",
+          "Auditorium": "305"
+        },
+        "Lesson_3": {
+          "Lesson": "Физика",
+          "Auditorium": "304"
+        },
+        "Lesson_4": {
+          "Lesson": "Физика",
+          "Auditorium": "304"
+        },
+        "Lesson_5": {
+          "Lesson": "Геометрия",
+          "Auditorium": "205"
+        },
+        "Lesson_6": {
+          "Lesson": "Биология",
+          "Auditorium": "209"
+        },
+        "Lesson_7": {
+          "Lesson": "Биология",
+          "Auditorium": "209"
+        }
+      }
+    },
+    "9a": {
+      "Weekday_1": {
+        "Lesson_1": {
+          "Lesson": "Разговоры о важном",
+          "Auditorium": "306"
+        },
+        "Lesson_2": {
+          "Lesson": "ОБЗР",
+          "Auditorium": "304"
+        },
+        "Lesson_3": {
+          "Lesson": "Геометрия",
+          "Auditorium": "203"
+        },
+        "Lesson_4": {
+          "Lesson": "Геометрия",
+          "Auditorium": "203"
+        },
+        "Lesson_5": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_6": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        }
+      },
+      "Weekday_2": {
+        "Lesson_1": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        },
+        "Lesson_2": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        },
+        "Lesson_3": {
+          "Lesson": "Биология",
+          "Auditorium": "209"
+        },
+        "Lesson_4": {
+          "Lesson": "Биология",
+          "Auditorium": "209"
+        },
+        "Lesson_5": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "306, 202"
+        },
+        "Lesson_6": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_7": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        }
+      },
+      "Weekday_3": {
+        "Lesson_1": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_2": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_3": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_4": {
+          "Lesson": "Физкультура",
+          "Auditorium": "с/з"
+        },
+        "Lesson_5": {
+          "Lesson": "Родной (русский) язык",
+          "Auditorium": "306"
+        },
+        "Lesson_6": {
+          "Lesson": "Родная (русская) литература",
+          "Auditorium": "306"
+        }
+      },
+      "Weekday_4": {
+        "Lesson_1": {
+          "Lesson": "Русский язык",
+          "Auditorium": "311"
+        },
+        "Lesson_2": {
+          "Lesson": "Литература",
+          "Auditorium": "311"
+        },
+        "Lesson_3": {
+          "Lesson": "Алгебра",
+          "Auditorium": "203"
+        },
+        "Lesson_4": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_5": {
+          "Lesson": "География",
+          "Auditorium": "209"
+        },
+        "Lesson_6": {
+          "Lesson": "География",
+          "Auditorium": "209"
+        }
+      },
+      "Weekday_5": {
+        "Lesson_1": {
+          "Lesson": "Русский язык",
+          "Auditorium": "301"
+        },
+        "Lesson_2": {
+          "Lesson": "Литература",
+          "Auditorium": "301"
+        },
+        "Lesson_3": {
+          "Lesson": "Физкультура",
+          "Auditorium": "202"
+        },
+        "Lesson_4": {
+          "Lesson": "Информатика",
+          "Auditorium": "210"
+        },
+        "Lesson_5": {
+          "Lesson": "Обществознание",
+          "Auditorium": "312"
+        },
+        "Lesson_6": {
+          "Lesson": "Алгебра",
+          "Auditorium": "203"
+        }
+      },
+      "Weekday_6": {
+        "Lesson_1": {
+          "Lesson": "Физика",
+          "Auditorium": "304"
+        },
+        "Lesson_2": {
+          "Lesson": "Физика",
+          "Auditorium": "304"
+        },
+        "Lesson_3": {
+          "Lesson": "Русский язык",
+          "Auditorium": "305"
+        },
+        "Lesson_4": {
+          "Lesson": "Литература",
+          "Auditorium": "305"
+        },
+        "Lesson_5": {
+          "Lesson": "История РК",
+          "Auditorium": "306"
+        },
+        "Lesson_6": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "305, 206"
+        }
+      }
+    },
+    "9b": {
+      "Weekday_1": {
+        "Lesson_1": {
+          "Lesson": "Разговоры о важном",
+          "Auditorium": "209"
+        },
+        "Lesson_2": {
+          "Lesson": "Русский язык",
+          "Auditorium": "306"
+        },
+        "Lesson_3": {
+          "Lesson": "Литература",
+          "Auditorium": "306"
+        },
+        "Lesson_4": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "305, 206"
+        },
+        "Lesson_5": {
+          "Lesson": "Геометрия",
+          "Auditorium": "205"
+        },
+        "Lesson_6": {
+          "Lesson": "Геометрия",
+          "Auditorium": "205"
+        }
+      },
+      "Weekday_2": {
+        "Lesson_1": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_2": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_3": {
+          "Lesson": "Физика",
+          "Auditorium": "311"
+        },
+        "Lesson_4": {
+          "Lesson": "Физика",
+          "Auditorium": "311"
+        },
+        "Lesson_5": {
+          "Lesson": "Русский язык",
+          "Auditorium": "312"
+        },
+        "Lesson_6": {
+          "Lesson": "Литература",
+          "Auditorium": "312"
+        },
+        "Lesson_7": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        }
+      },
+      "Weekday_3": {
+        "Lesson_1": {
+          "Lesson": "Алгебра",
+          "Auditorium": "203"
+        },
+        "Lesson_2": {
+          "Lesson": "Алгебра",
+          "Auditorium": "203"
+        },
+        "Lesson_3": {
+          "Lesson": "Физкультура",
+          "Auditorium": "202"
+        },
+        "Lesson_4": {
+          "Lesson": "Информатика",
+          "Auditorium": "210"
+        },
+        "Lesson_5": {
+          "Lesson": "Труд (технология)",
+          "Auditorium": "Кванториум"
+        },
+        "Lesson_6": {
+          "Lesson": "Труд (технология)",
+          "Auditorium": "Кванториум"
+        }
+      },
+      "Weekday_4": {
+        "Lesson_1": {
+          "Lesson": "География",
+          "Auditorium": "209"
+        },
+        "Lesson_2": {
+          "Lesson": "География",
+          "Auditorium": "209"
+        },
+        "Lesson_3": {
+          "Lesson": "Русский язык",
+          "Auditorium": "305"
+        },
+        "Lesson_4": {
+          "Lesson": "Литература",
+          "Auditorium": "305"
+        },
+        "Lesson_5": {
+          "Lesson": "ОБЗР",
+          "Auditorium": "205"
+        },
+        "Lesson_6": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "311, 305"
+        }
+      },
+      "Weekday_5": {
+        "Lesson_1": {
+          "Lesson": "Биология",
+          "Auditorium": "209"
+        },
+        "Lesson_2": {
+          "Lesson": "Биология",
+          "Auditorium": "209"
+        },
+        "Lesson_3": {
+          "Lesson": "Информатика",
+          "Auditorium": "210"
+        },
+        "Lesson_4": {
+          "Lesson": "Физкультура",
+          "Auditorium": "202"
+        },
+        "Lesson_5": {
+          "Lesson": "Алгебра",
+          "Auditorium": "203"
+        },
+        "Lesson_6": {
+          "Lesson": "Обществознание",
+          "Auditorium": "312"
+        }
+      },
+      "Weekday_6": {
+        "Lesson_1": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_2": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_3": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_4": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "209, 210"
+        },
+        "Lesson_5": {
+          "Lesson": "Государственный (коми) язык",
+          "Auditorium": "311"
+        },
+        "Lesson_6": {
+          "Lesson": "История РК, Государственный (коми) язык",
+          "Auditorium": "306, 311"
+        }
+      }
+    },
+    "10a": {
+      "Weekday_1": {
+        "Lesson_1": {
+          "Lesson": "Разговоры о важном",
+          "Auditorium": "304"
+        },
+        "Lesson_2": {
+          "Lesson": "Индивидуальный проект",
+          "Auditorium": "312"
+        },
+        "Lesson_3": {
+          "Lesson": "География",
+          "Auditorium": "209"
+        },
+        "Lesson_4": {
+          "Lesson": "Алгебра",
+          "Auditorium": "207"
+        },
+        "Lesson_5": {
+          "Lesson": "Алгебра",
+          "Auditorium": "207"
+        },
+        "Lesson_6": {
+          "Lesson": "Русский язык",
+          "Auditorium": "311"
+        }
+      },
+      "Weekday_2": {
+        "Lesson_1": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_2": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_3": {
+          "Lesson": "Геометрия",
+          "Auditorium": "207"
+        },
+        "Lesson_4": {
+          "Lesson": "Геометрия",
+          "Auditorium": "207"
+        },
+        "Lesson_5": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304, 311"
+        },
+        "Lesson_6": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304, 311"
+        }
+      },
+      "Weekday_3": {
+        "Lesson_1": {
+          "Lesson": "Физический практикум (инж.)",
+          "Auditorium": "304, 202, 306"
+        },
+        "Lesson_2": {
+          "Lesson": "Физический практикум (инж.)",
+          "Auditorium": "304, 202, 306"
+        },
+        "Lesson_3": {
+          "Lesson": "Информатика",
+          "Auditorium": "210"
+        },
+        "Lesson_4": {
+          "Lesson": "Физика",
+          "Auditorium": "311"
+        },
+        "Lesson_5": {
+          "Lesson": "Обществознание",
+          "Auditorium": "312"
+        },
+        "Lesson_6": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "305, 301"
+        }
+      },
+      "Weekday_4": {
+        "Lesson_1": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304, 308"
+        },
+        "Lesson_2": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304, 308"
+        },
+        "Lesson_3": {
+          "Lesson": "Алгебра",
+          "Auditorium": "207"
+        },
+        "Lesson_4": {
+          "Lesson": "Алгебра",
+          "Auditorium": "207"
+        },
+        "Lesson_5": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_6": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        }
+      },
+      "Weekday_5": {
+        "Lesson_1": {
+          "Lesson": "Геометрия",
+          "Auditorium": "207"
+        },
+        "Lesson_2": {
+          "Lesson": "Вероятность и статистика",
+          "Auditorium": "207"
+        },
+        "Lesson_3": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_4": {
+          "Lesson": "Физкультура",
+          "Auditorium": "с/з"
+        },
+        "Lesson_5": {
+          "Lesson": "Физика (инф.-тех.)",
+          "Auditorium": "304"
+        },
+        "Lesson_6": {
+          "Lesson": "Физика (инф.-тех.)",
+          "Auditorium": "304"
+        },
+        "Lesson_7": {
+          "Lesson": "Биология",
+          "Auditorium": "305"
+        }
+      },
+      "Weekday_6": {
+        "Lesson_1": {
+          "Lesson": "Алгебра",
+          "Auditorium": "207"
+        },
+        "Lesson_2": {
+          "Lesson": "Алгебра",
+          "Auditorium": "207"
+        },
+        "Lesson_3": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "202"
+        },
+        "Lesson_4": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "202"
+        },
+        "Lesson_5": {
+          "Lesson": "Литература",
+          "Auditorium": "207"
+        },
+        "Lesson_6": {
+          "Lesson": "Литература",
+          "Auditorium": "207"
+        }
+      }
+    },
+    "10b": {
+      "Weekday_1": {
+        "Lesson_1": {
+          "Lesson": "Разговоры о важном",
+          "Auditorium": "301"
+        },
+        "Lesson_2": {
+          "Lesson": "География",
+          "Auditorium": "209"
+        },
+        "Lesson_3": {
+          "Lesson": "Индивидуальный проект",
+          "Auditorium": "312"
+        },
+        "Lesson_4": {
+          "Lesson": "Алгебра",
+          "Auditorium": "311"
+        },
+        "Lesson_5": {
+          "Lesson": "Алгебра",
+          "Auditorium": "311"
+        },
+        "Lesson_6": {
+          "Lesson": "Литература",
+          "Auditorium": "301"
+        }
+      },
+      "Weekday_2": {
+        "Lesson_1": {
+          "Lesson": "ОБЗР",
+          "Auditorium": "312"
+        },
+        "Lesson_2": {
+          "Lesson": "Биология",
+          "Auditorium": "312"
+        },
+        "Lesson_3": {
+          "Lesson": "Геометрия",
+          "Auditorium": "305"
+        },
+        "Lesson_4": {
+          "Lesson": "Геометрия",
+          "Auditorium": "305"
+        },
+        "Lesson_5": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304, 311"
+        },
+        "Lesson_6": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304, 311"
+        }
+      },
+      "Weekday_3": {
+        "Lesson_1": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "305, 210, 313"
+        },
+        "Lesson_2": {
+          "Lesson": "Физический практикум (инж.)",
+          "Auditorium": "304, 202, 306"
+        },
+        "Lesson_3": {
+          "Lesson": "ОБЗР",
+          "Auditorium": "205"
+        },
+        "Lesson_4": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "305, 306"
+        },
+        "Lesson_5": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_6": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        }
+      },
+      "Weekday_4": {
+        "Lesson_1": {
+          "Lesson": "Информатика (инф.-тех.)",
+          "Auditorium": "210"
+        },
+        "Lesson_2": {
+          "Lesson": "Информатика (инф.-тех.)",
+          "Auditorium": "210"
+        },
+        "Lesson_3": {
+          "Lesson": "Алгебра",
+          "Auditorium": "312"
+        },
+        "Lesson_4": {
+          "Lesson": "Алгебра",
+          "Auditorium": "312"
+        },
+        "Lesson_5": {
+          "Lesson": "Русский язык",
+          "Auditorium": "301"
+        },
+        "Lesson_6": {
+          "Lesson": "Русский язык",
+          "Auditorium": "301"
+        }
+      },
+      "Weekday_5": {
+        "Lesson_1": {
+          "Lesson": "Геометрия",
+          "Auditorium": "205"
+        },
+        "Lesson_2": {
+          "Lesson": "Вероятность и статистика",
+          "Auditorium": "205"
+        },
+        "Lesson_3": {
+          "Lesson": "Литература",
+          "Auditorium": "312"
+        },
+        "Lesson_4": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_5": {
+          "Lesson": "Физика (инф.-тех.)",
+          "Auditorium": "304"
+        },
+        "Lesson_6": {
+          "Lesson": "Физика (инф.-тех.)",
+          "Auditorium": "304"
+        },
+        "Lesson_7": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        }
+      },
+      "Weekday_6": {
+        "Lesson_1": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        },
+        "Lesson_2": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        },
+        "Lesson_3": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "206"
+        },
+        "Lesson_4": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "206"
+        },
+        "Lesson_5": {
+          "Lesson": "Литература",
+          "Auditorium": "301"
+        },
+        "Lesson_6": {
+          "Lesson": "Литература",
+          "Auditorium": "301"
+        }
+      }
+    },
+    "10с": {
+      "Weekday_1": {
+        "Lesson_1": {
+          "Lesson": "Разговоры о важном",
+          "Auditorium": "305"
+        },
+        "Lesson_2": {
+          "Lesson": "Математический практикум",
+          "Auditorium": "202"
+        },
+        "Lesson_3": {
+          "Lesson": "Математический практикум",
+          "Auditorium": "202"
+        },
+        "Lesson_4": {
+          "Lesson": "Биологический практикум",
+          "Auditorium": "209"
+        },
+        "Lesson_5": {
+          "Lesson": "Биологический практикум",
+          "Auditorium": "209"
+        },
+        "Lesson_6": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304"
+        },
+        "Lesson_7": {
+          "Lesson": "Информатика (инж.)",
+          "Auditorium": "206, 210"
+        }
+      },
+      "Weekday_2": {
+        "Lesson_1": {
+          "Lesson": "Литература",
+          "Auditorium": "301"
+        },
+        "Lesson_2": {
+          "Lesson": "Литература",
+          "Auditorium": "301"
+        },
+        "Lesson_3": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        },
+        "Lesson_4": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        },
+        "Lesson_5": {
+          "Lesson": "География",
+          "Auditorium": "209"
+        },
+        "Lesson_6": {
+          "Lesson": "Информатика (инф.-тех.)",
+          "Auditorium": "210"
+        },
+        "Lesson_7": {
+          "Lesson": "Информатика (инф.-тех.)",
+          "Auditorium": "210"
+        }
+      },
+      "Weekday_3": {
+        "Lesson_1": {
+          "Lesson": "Вероятность и статистика",
+          "Auditorium": "205"
+        },
+        "Lesson_2": {
+          "Lesson": "Литература",
+          "Auditorium": "301"
+        },
+        "Lesson_3": {
+          "Lesson": "Физика",
+          "Auditorium": "311"
+        },
+        "Lesson_4": {
+          "Lesson": "Физика",
+          "Auditorium": "311"
+        },
+        "Lesson_5": {
+          "Lesson": "Литература",
+          "Auditorium": "301"
+        },
+        "Lesson_6": {
+          "Lesson": "Информатика",
+          "Auditorium": "206, 210"
+        }
+      },
+      "Weekday_4": {
+        "Lesson_1": {
+          "Lesson": "Геометрия",
+          "Auditorium": "205"
+        },
+        "Lesson_2": {
+          "Lesson": "Русский язык (русский)",
+          "Auditorium": "301"
+        },
+        "Lesson_3": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "308, 202, 313"
+        },
+        "Lesson_4": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_5": {
+          "Lesson": "Русский язык",
+          "Auditorium": "203"
+        },
+        "Lesson_6": {
+          "Lesson": "Русский язык",
+          "Auditorium": "203"
+        },
+        "Lesson_7": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        }
+      },
+      "Weekday_5": {
+        "Lesson_1": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_2": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_3": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_4": {
+          "Lesson": "Обществознание",
+          "Auditorium": "312"
+        },
+        "Lesson_5": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_6": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        }
+      },
+      "Weekday_6": {
+        "Lesson_1": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        },
+        "Lesson_2": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        },
+        "Lesson_3": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "206"
+        },
+        "Lesson_4": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "206"
+        },
+        "Lesson_5": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_6": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        }
+      }
+    },
+    "11a": {
+      "Weekday_1": {
+        "Lesson_1": {
+          "Lesson": "Разговоры о важном",
+          "Auditorium": "203"
+        },
+        "Lesson_2": {
+          "Lesson": "Русский язык",
+          "Auditorium": "301"
+        },
+        "Lesson_3": {
+          "Lesson": "Русский язык",
+          "Auditorium": "301"
+        },
+        "Lesson_4": {
+          "Lesson": "Геометрия",
+          "Auditorium": "205"
+        },
+        "Lesson_5": {
+          "Lesson": "Физика (инф.-тех.)",
+          "Auditorium": "305"
+        },
+        "Lesson_6": {
+          "Lesson": "Физика (инф.-тех.)",
+          "Auditorium": "304"
+        },
+        "Lesson_7": {
+          "Lesson": "Алгебра",
+          "Auditorium": "203"
+        }
+      },
+      "Weekday_2": {
+        "Lesson_1": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_2": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "304, 311"
+        },
+        "Lesson_3": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304"
+        },
+        "Lesson_4": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304"
+        },
+        "Lesson_5": {
+          "Lesson": "Алгебра",
+          "Auditorium": "203"
+        },
+        "Lesson_6": {
+          "Lesson": "Алгебра",
+          "Auditorium": "203"
+        }
+      },
+      "Weekday_3": {
+        "Lesson_1": {
+          "Lesson": "Математический практикум",
+          "Auditorium": "311"
+        },
+        "Lesson_2": {
+          "Lesson": "Математический практикум",
+          "Auditorium": "311"
+        },
+        "Lesson_3": {
+          "Lesson": "Геометрия",
+          "Auditorium": "207"
+        },
+        "Lesson_4": {
+          "Lesson": "Геометрия",
+          "Auditorium": "207"
+        },
+        "Lesson_5": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "305, 304"
+        },
+        "Lesson_6": {
+          "Lesson": "Биология",
+          "Auditorium": "209"
+        }
+      },
+      "Weekday_4": {
+        "Lesson_1": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_2": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_3": {
+          "Lesson": "Литература",
+          "Auditorium": "301"
+        },
+        "Lesson_4": {
+          "Lesson": "ОБЗР",
+          "Auditorium": "205"
+        },
+        "Lesson_5": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304"
+        },
+        "Lesson_6": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304"
+        },
+        "Lesson_7": {
+          "Lesson": "Информатика (инф.-тех.)",
+          "Auditorium": "206, 210"
+        }
+      },
+      "Weekday_5": {
+        "Lesson_1": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304"
+        },
+        "Lesson_2": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304"
+        },
+        "Lesson_3": {
+          "Lesson": "Биология",
+          "Auditorium": "209"
+        },
+        "Lesson_4": {
+          "Lesson": "Биология",
+          "Auditorium": "209"
+        },
+        "Lesson_5": {
+          "Lesson": "Русский язык",
+          "Auditorium": "301"
+        },
+        "Lesson_6": {
+          "Lesson": "Русский язык",
+          "Auditorium": "301"
+        }
+      },
+      "Weekday_6": {
+        "Lesson_1": {
+          "Lesson": "Обществознание",
+          "Auditorium": "312"
+        },
+        "Lesson_2": {
+          "Lesson": "Обществознание",
+          "Auditorium": "312"
+        },
+        "Lesson_3": {
+          "Lesson": "Биология",
+          "Auditorium": "209"
+        },
+        "Lesson_4": {
+          "Lesson": "Индивидуальный проект",
+          "Auditorium": "312"
+        },
+        "Lesson_5": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "306, 202"
+        },
+        "Lesson_6": {
+          "Lesson": "Вероятность и статистика",
+          "Auditorium": "203"
+        },
+        "Lesson_7": {
+          "Lesson": "Обществознание",
+          "Auditorium": "312"
+        }
+      }
+    },
+    "11b": {
+      "Weekday_1": {
+        "Lesson_1": {
+          "Lesson": "Разговоры о важном",
+          "Auditorium": "312"
+        },
+        "Lesson_2": {
+          "Lesson": "Геометрия",
+          "Auditorium": "203"
+        },
+        "Lesson_3": {
+          "Lesson": "Родной язык (русский)",
+          "Auditorium": "305"
+        },
+        "Lesson_4": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "202, 210"
+        },
+        "Lesson_5": {
+          "Lesson": "Информатика (инж.)",
+          "Auditorium": "206, 210"
+        },
+        "Lesson_6": {
+          "Lesson": "Информатика (инж.)",
+          "Auditorium": "206, 210"
+        }
+      },
+      "Weekday_2": {
+        "Lesson_1": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "311, 202"
+        },
+        "Lesson_2": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_3": {
+          "Lesson": "Информатика (инф.-тех.)",
+          "Auditorium": "206, 210"
+        },
+        "Lesson_4": {
+          "Lesson": "Информатика (инф.-тех.)",
+          "Auditorium": "206, 210"
+        },
+        "Lesson_5": {
+          "Lesson": "Алгебра",
+          "Auditorium": "207"
+        },
+        "Lesson_6": {
+          "Lesson": "Алгебра",
+          "Auditorium": "207"
+        },
+        "Lesson_7": {
+          "Lesson": "География",
+          "Auditorium": "209"
+        }
+      },
+      "Weekday_3": {
+        "Lesson_1": {
+          "Lesson": "Биологический практикум",
+          "Auditorium": "209"
+        },
+        "Lesson_2": {
+          "Lesson": "Биологический практикум",
+          "Auditorium": "209"
+        },
+        "Lesson_3": {
+          "Lesson": "Биология",
+          "Auditorium": "203"
+        },
+        "Lesson_4": {
+          "Lesson": "Биология",
+          "Auditorium": "203"
+        },
+        "Lesson_5": {
+          "Lesson": "Геометрия",
+          "Auditorium": "203"
+        },
+        "Lesson_6": {
+          "Lesson": "Геометрия",
+          "Auditorium": "203"
+        },
+        "Lesson_7": {
+          "Lesson": "Химический практикум",
+          "Auditorium": "308"
+        },
+        "Lesson_8": {
+          "Lesson": "Химический практикум",
+          "Auditorium": "308"
+        }
+      },
+      "Weekday_4": {
+        "Lesson_1": {
+          "Lesson": "Геометрия",
+          "Auditorium": "305"
+        },
+        "Lesson_2": {
+          "Lesson": "Вероятность и статистика",
+          "Auditorium": "305"
+        },
+        "Lesson_3": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "203, 202"
+        },
+        "Lesson_4": {
+          "Lesson": "Литература",
+          "Auditorium": "207"
+        },
+        "Lesson_5": {
+          "Lesson": "Информатика (инф.-тех.)",
+          "Auditorium": "206, 210"
+        },
+        "Lesson_6": {
+          "Lesson": "Информатика (инф.-тех.)",
+          "Auditorium": "206, 210"
+        }
+      },
+      "Weekday_5": {
+        "Lesson_1": {
+          "Lesson": "Алгебра",
+          "Auditorium": "203"
+        },
+        "Lesson_2": {
+          "Lesson": "Алгебра",
+          "Auditorium": "203"
+        },
+        "Lesson_3": {
+          "Lesson": "Алгебра",
+          "Auditorium": "203"
+        },
+        "Lesson_4": {
+          "Lesson": "Алгебра",
+          "Auditorium": "203"
+        },
+        "Lesson_5": {
+          "Lesson": "Физика (инф.-тех.)",
+          "Auditorium": "202"
+        },
+        "Lesson_6": {
+          "Lesson": "Физика (инж.)",
+          "Auditorium": "304"
+        }
+      },
+      "Weekday_6": {
+        "Lesson_1": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_2": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_3": {
+          "Lesson": "Обществознание",
+          "Auditorium": "312"
+        },
+        "Lesson_4": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_5": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_6": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        }
+      }
+    },
+    "11c": {
+      "Weekday_1": {
+        "Lesson_1": {
+          "Lesson": "Разговоры о важном",
+          "Auditorium": "308"
+        },
+        "Lesson_2": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "305, 206, 313"
+        },
+        "Lesson_3": {
+          "Lesson": "Физика",
+          "Auditorium": "304"
+        },
+        "Lesson_4": {
+          "Lesson": "Физика",
+          "Auditorium": "304"
+        },
+        "Lesson_5": {
+          "Lesson": "Биология",
+          "Auditorium": "203"
+        },
+        "Lesson_6": {
+          "Lesson": "Биология",
+          "Auditorium": "203"
+        }
+      },
+      "Weekday_2": {
+        "Lesson_1": {
+          "Lesson": "Русский язык",
+          "Auditorium": "305"
+        },
+        "Lesson_2": {
+          "Lesson": "Русский язык",
+          "Auditorium": "305"
+        },
+        "Lesson_3": {
+          "Lesson": "Биология",
+          "Auditorium": "203"
+        },
+        "Lesson_4": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_5": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        },
+        "Lesson_6": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        }
+      },
+      "Weekday_3": {
+        "Lesson_1": {
+          "Lesson": "Биологический практикум",
+          "Auditorium": "209"
+        },
+        "Lesson_2": {
+          "Lesson": "Биологический практикум",
+          "Auditorium": "209"
+        },
+        "Lesson_3": {
+          "Lesson": "Химический практикум",
+          "Auditorium": "308"
+        },
+        "Lesson_4": {
+          "Lesson": "Химический практикум",
+          "Auditorium": "308"
+        },
+        "Lesson_5": {
+          "Lesson": "Математический практикум",
+          "Auditorium": "207"
+        },
+        "Lesson_6": {
+          "Lesson": "Математический практикум",
+          "Auditorium": "207"
+        }
+      },
+      "Weekday_4": {
+        "Lesson_1": {
+          "Lesson": "Геометрия",
+          "Auditorium": "305"
+        },
+        "Lesson_2": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "311, 206, 313"
+        },
+        "Lesson_3": {
+          "Lesson": "Алгебра",
+          "Auditorium": "205"
+        },
+        "Lesson_4": {
+          "Lesson": "Иностранный язык",
+          "Auditorium": "311, 206, 313"
+        },
+        "Lesson_5": {
+          "Lesson": "Литература",
+          "Auditorium": "207"
+        },
+        "Lesson_6": {
+          "Lesson": "Литература",
+          "Auditorium": "207"
+        },
+        "Lesson_7": {
+          "Lesson": "Информатика",
+          "Auditorium": "206, 210"
+        }
+      },
+      "Weekday_5": {
+        "Lesson_1": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_2": {
+          "Lesson": "Физкультура",
+          "Auditorium": "Стадион"
+        },
+        "Lesson_3": {
+          "Lesson": "Алгебра",
+          "Auditorium": "311"
+        },
+        "Lesson_4": {
+          "Lesson": "Алгебра",
+          "Auditorium": "311"
+        },
+        "Lesson_5": {
+          "Lesson": "Родной язык (русский)",
+          "Auditorium": "305"
+        },
+        "Lesson_6": {
+          "Lesson": "Литература",
+          "Auditorium": "305"
+        },
+        "Lesson_7": {
+          "Lesson": "ОБЗР",
+          "Auditorium": "207"
+        }
+      },
+      "Weekday_6": {
+        "Lesson_1": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_2": {
+          "Lesson": "История",
+          "Auditorium": "306"
+        },
+        "Lesson_3": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_4": {
+          "Lesson": "Химия",
+          "Auditorium": "308"
+        },
+        "Lesson_5": {
+          "Lesson": "Обществознание",
+          "Auditorium": "312"
+        },
+        "Lesson_6": {
+          "Lesson": "Обществознание",
+          "Auditorium": "312"
         }
       }
     }
