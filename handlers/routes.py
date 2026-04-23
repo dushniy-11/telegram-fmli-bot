@@ -34,14 +34,12 @@ async def notifier(bot: Bot):
                 for element in result:
                     if element[2] in classes:
                         try:
-                            await bot.send_message(element[1],
-                                                   f"Замена для {class_dict[element[2]]} на {weekdays_dict[weekday]}")
                             lessons_lst = list(data[0][element[2]][weekday].values())
                             lessons_numbers = list(data[0][element[2]][weekday].keys())
-                            lessons_lst_1 = []
+                            lessons_lst_1 = [f"<strong>Замена для {class_dict[element[2]]} на {weekdays_dict[weekday]}</strong>"]
                             for i in range(len(lessons_lst)):
-                                lessons_lst_1.append(f"{lessons_numbers[i][-1]} Урок: {lessons_lst[i]["Lesson"]}; Кабинет: {lessons_lst[i]["Auditorium"]}")
-                            await bot.send_message(element[1], ("\n").join(lessons_lst_1))
+                                lessons_lst_1.append(f"{lessons_numbers[i][-1]} Урок: <u>{lessons_lst[i]["Lesson"]};</u> Кабинет: <u>{lessons_lst[i]["Auditorium"]}</u>")
+                            await bot.send_message(element[1], ("\n").join(lessons_lst_1), parse_mode="HTML")
                         except Exception:
                             pass
                 await cursor.close()
@@ -231,7 +229,6 @@ async def select_weekday(callback: CallbackQuery, state: FSMContext):
             classname = result[0]
 
 
-    await callback.message.answer(f"Расписание на {weekdays_dict[weekday]} для {class_dict[classname]}")
     async with aiofiles.open("assets/shedule.json", "r", encoding="utf-8") as f:
         content = await f.read()
         shedule_data = await asyncio.to_thread(json.loads, content)
@@ -240,7 +237,7 @@ async def select_weekday(callback: CallbackQuery, state: FSMContext):
         replacements_data = await asyncio.to_thread(json.loads, content)
 
     shedule_lessons = shedule_data[0][classname][weekday]
-    lessons_lst = []
+    lessons_lst = [f"<strong>Расписание на {weekdays_dict[weekday]} для {class_dict[classname]}</strong>"]
     counter = 1
     if weekday in replacements_data[0][classname].keys():
         replacements_lessons = replacements_data[0][classname][weekday]
